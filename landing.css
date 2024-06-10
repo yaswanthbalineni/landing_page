@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #d3f06d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .plant-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(98, 221, 119, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .plant-card img {
+    width: 300px;
+    height: 200px;
+    background-image: url(C:\Users\balineni bhargav\OneDrive\Pictures\Screenshots\rose.jpg);
+    background-image: url(C:\Users\balineni bhargav\OneDrive\Pictures\Screenshots\jasmine.jpg);
+    background-image: url(C:\Users\balineni bhargav\OneDrive\Pictures\Screenshots\marigold.jpg);
+    
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+  
